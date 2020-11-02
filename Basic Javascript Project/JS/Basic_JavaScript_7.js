@@ -1,3 +1,4 @@
+//#1
 var x = 10;
 function Add_numbers_1() {
     document.write(20 + x + "<br>");
@@ -8,6 +9,17 @@ function Add_numbers_2() {
 Add_numbers_1();
 Add_numbers_2();
 
+//#2
+function Add_numbers_1() {
+    console.log(20 + x + "<br>");
+}
+function Add_numbers_2() {
+    console.log(x + 100);
+}
+Add_numbers_1();
+Add_numbers_2();
+
+//#3
 if (4<20){
     document.write("<br>Left is less than right.")
 }
@@ -23,6 +35,7 @@ function Age_Function() {
     document.getElementById("How_old_are_you?").innerHTML=Vote;
 }
 
+//#4
 function Time_function() {
     var Time= new Date().getHours();
     var Reply;
